@@ -1,0 +1,8 @@
+1. check all windows object.
+1. Understand date Object in javascript.
+2. alert time with AM and PM tag  ( before noon time and after noon time).
+3. alert current date and time.
+4. prepare a daylist (eg. sunday, monday ... as on) and print in console as well as HTML page using loop.
+
+Note : Each alert and console print based on button click.
+
