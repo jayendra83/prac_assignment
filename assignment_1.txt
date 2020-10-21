@@ -6,3 +6,24 @@
 
 Note : Each alert and console print based on button click.
 
+answer:
+==============
+
+1.
+
+location
+document
+navigator
+console
+history
+close
+length
+frameElement
+pageXOffset
+top
+status
+outerHeight
+outerWidth
+
+2.
+new Date(year, month, day, hours, minutes, seconds, milliseconds)

@@ -1,0 +1,33 @@
+<!DOCTYPE htnl>
+<html>
+   <head>
+        <script>
+            function validateForm(){
+                var my_date = new Date();
+                var n = my_date.toLocaleString([], { hour12: true});
+                document.getElementById('my_div').innerHTML = n;
+                //alert("current date and time");
+                return false;
+               }      
+
+            function getWeekDay(){
+                var arr_days = new Array("Sunday","Monday","Tuesday", "Wednesday", "Thusday", "Friday", "Saturday");
+                document.getElementById("day1").innerHTML = arr_days;
+                    for(var i=0; i<arr_days.length; i++){
+                        console.log(arr_days[i]);
+                     }
+            } 
+
+        </script>
+    </head>
+    <body>
+        
+        <input type="button" name="time" id="time" value="date" onclick="validateForm();">
+        <div id="my_div"> </div>
+
+        <input type="button" name="days" id="days" value="Get days" onclick="getWeekDay();"> 
+        <div id="day1"></div>
+        
+    
+    </body>        
+</html>
