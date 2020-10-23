@@ -1,0 +1,53 @@
+<!DOCTYPE htnl>
+<html>
+   <head>
+        <script>
+
+            function validateForm(){
+                var my_date = new Date();
+                var n = my_date.toLocaleString([], { hour12: true});
+                document.getElementById('my_div').innerHTML = n;
+                //alert("current date and time");
+                return false;
+            }      
+
+                function getWeekDay()
+                {
+                    var arr_days = ["Sunday","Monday","Tuesday", "Wednesday", "Thusday", "Friday", "Saturday"];
+
+                    var ul_ele = document.createElement("ul");
+                    
+
+                    var div_ele = document.getElementById("days");
+                    
+                    arr_days.forEach(myFunction);
+                    function myFunction(value, key)
+                    {
+                        var li_obj = document.createElement("li");
+                        li_obj.innerHTML =  value;
+                        ul_ele.appendChild(li_obj);
+                        
+                        //document.getElementById("demo").innerHTML +=  value + "<br>"; 
+                     }
+
+                       
+                    ul_ele.innerHTML = li_obj
+                    div_ele.appendChild(ul_ele);
+
+                    
+                }                      
+
+        </script>
+    </head>
+    <body>
+        
+        <input type="button" name="time" id="time" value="date" onclick="validateForm();">
+        <div id="my_div"> </div>
+
+        <input type="button" name="days" id="days" value="Get days" onclick="getWeekDay();"> 
+        <div id="days"></div>
+        
+        
+    
+    </body>        
+</html>
