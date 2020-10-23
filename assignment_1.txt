@@ -20,7 +20,7 @@ close
 length
 frameElement
 pageXOffset
-top
+top  
 status
 outerHeight
 outerWidth
