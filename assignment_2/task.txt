@@ -2,4 +2,8 @@
 2) Create one div and one select box , fill select box with color code , 
    while selecting diff color in select box. we have to show respactive colore name and color in div. 
 3) Prepare a small calculater which will do atleast sum, multiplication, subtract and division.
-for this you have to create 2 textbox , one select box with all calculation option and one button.
+for this you have to create 2 textbox , one select box with all calculation optio   n and one button.
+
+
+
+strating answer
